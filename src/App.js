@@ -1,13 +1,10 @@
 import './App.css'
-import BasicFunctionComp from './components/BasicFunctionalComp'
-import BasicClassComp from './components/BasicClassComp'
-import HookCountertwo from './components/HookCountertwo'
-import UseStateHook from './components/UseStateHook'
+import UseReducertwo from './components/UseReducertwo'
+
 function App() {
   return (
     <div className='App'>
-      {/* <UseStateHook/> */}
-      <HookCountertwo/>
+      <UseReducertwo />
     </div>
   )
 }

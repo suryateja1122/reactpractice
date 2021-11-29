@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function HookCountertwo() {
   const [count, setCount] = useState(0)
-  let initialCount = 0
+  
 
   return (
     <div>
